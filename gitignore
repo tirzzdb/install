@@ -1,0 +1,13 @@
+# Jangan pernah commit API key / kredensial
+*.env
+.env
+*.key
+api_key.txt
+
+# File sementara hasil curl saat import egg
+/tmp/
+egg_import_response.json
+
+# OS / editor
+.DS_Store
+*.swp
